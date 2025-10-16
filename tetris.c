@@ -41,7 +41,7 @@ int pilhaVazia(Pilha *p);
 int pilhaCheia(Pilha *p);
 void enfileirar(Fila *f, Peca p);
 Peca desenfileirar(Fila *f);
-void empilhar(Pilha *p, Peca p);
+void empilhar(Pilha *p, Peca peca);
 Peca desempilhar(Pilha *p);
 Peca gerarPeca();
 void exibirFila(Fila *f);
